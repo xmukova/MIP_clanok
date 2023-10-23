@@ -1,0 +1,54 @@
+% Metódy inžinierskej práce
+
+\documentclass[10pt,twoside,slovak,a4paper]{article}
+
+\usepackage[slovak]{babel}
+%\usepackage[T1]{fontenc}
+\usepackage[IL2]{fontenc} % lepšia sadzba písmena Ľ než v T1
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{url} % príkaz \url na formátovanie URL
+%\usepackage{hyperref} % odkazy v texte budú aktívne (pri niektorých triedach dokumentov spôsobuje posun textu)
+
+\usepackage{cite}
+%\usepackage{times}
+
+\pagestyle{headings}
+
+\title{Porovnanie vyhľadávačov a ich algoritmov\thanks{Semestrálny projekt v predmete Metódy inžinierskej práce, ak. rok 2023/24, vedenie: PeadDr Pavol Baťalík}} % meno a priezvisko vyučujúceho na cvičeniach
+
+\author{Alena Múková\\[2pt]
+	{\small Slovenská technická univerzita v Bratislave}\\
+	{\small Fakulta informatiky a informačných technológií}\\
+	{\small \texttt{xmukova@stuba.sk}}
+	}
+
+\date{\small  } % upravte
+
+
+
+\begin{document}
+
+\maketitle
+\begin{abstract}
+\ldots
+\end{abstract}
+\section{Úvod}
+
+V dnešnej dobe ľudia vyhľadávajú väčšinu vecí online. K dispozícií máme na výber množstvo rôznych vyhľadávačov, ktoré možno použiť. Každý z existujúcich vyhľadávačov používa rôzne algoritmy a spôsoby, pomocou ktorých nám poskytnú to, čo hľadáme.  Chcela by som porovnať tieto techniky pomocou ktorých dané vyhľadávače fungujú. Taktiež viaceré vyhľadávače nám môžu poskytnúť rôzne výsledky alebo rôzne počty výsledkov, hoci sme vyhľadávali podobné pojmy. Relevantnosť vygenerovaných výsledkov je taktiež zásadným faktorom, ktorý užívatelia požadujú. Novinkou sa stala aj umelá inteligencia, ktorá môže vyhľadávanie posunúť v budúcnosti na ešte vyšší level. Rôzne faktory ovplyvňujú to, čo nám vyhľadávač nájde. Týmto faktorom by som sa chcela venovať a zistiť, ktorý vyhľadávač je v akej situácií vhodnejší použiť.
+
+
+%\acknowledgement{Ak niekomu chcete poďakovať\ldots}
+
+
+% týmto sa generuje zoznam literatúry z obsahu súboru literatura.bib podľa toho, na čo sa v článku odkazujete
+\bibliography{literatura}
+\bibliographystyle{alpha} % prípadne alpha, abbrv alebo hociktorý iný
+
+\cite{4621535}
+
+\cite{dujmovic2006evaluation}
+
+\cite{8918837}
+
+\end{document}
